@@ -1,0 +1,2 @@
+若安装到自己的网站上那么在路径：ht/code中
+把www.zizhushu.com变成你的网址就好了。

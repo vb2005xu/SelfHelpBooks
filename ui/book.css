@@ -1,0 +1,144 @@
+body {background:#e5e4db; font:normal 12px/1.2 arial, verdana, sans-serif;overflow:hidden;margin:0}
+img {border:0;background-repeat:no-repeat;}
+p {width:100%;}
+a {padding:3px;cursor:pointer;}
+h3 {text-align:center;color:#000;font-size:14px;}
+.eva-zl a:link{
+	color:#aaa;
+	text-decoration:none;
+	background:none;
+}
+.eva-zl a:visited{
+	color:#aaa;
+	text-decoration:none;
+	background:none
+}
+.eva-zl a:hover{
+	color:white;
+	background:#CECDC5
+}
+.eva-zl a:active{
+	color:white;
+	background:#666;
+	text-decoration:none
+}
+
+.yuanc a:link{
+	color:#aaa;
+	text-decoration:none;
+	background:none;
+}
+.yuanc a:visited{
+	color:#aaa;
+	text-decoration:none;
+	background:none
+}
+.yuanc a:hover{
+	color:white;
+	background:#CECDC5
+}
+.yuanc a:active{
+	color:white;
+	background:#666;
+	text-decoration:none
+}
+h1 a:link{
+	color:#666;
+	text-decoration:none;
+	background:none;
+}
+h1 a:visited{
+	color:#666;
+	text-decoration:none;
+	background:none
+}
+h1 a:hover{
+	color:white;
+	background:#CECDC5
+}
+h1 a:active{
+	color:white;
+	background:#666;
+	text-decoration:none
+}
+.eva-top a:link{
+	color:#000;
+	text-decoration:none;
+	background:none;
+}
+.eva-top a:visited{
+	color:#000;
+	text-decoration:none;
+	background:none
+}
+.eva-top a:hover{
+	color:white;
+	background:#CECDC5
+}
+.eva-top a:active{
+	color:white;
+	background:#666;
+	text-decoration:none
+}
+.dy_top a:link{
+	color:#aaa;
+	text-decoration:none;
+	background:none;
+}
+.dy_top a:visited{
+	color:#aaa;
+	text-decoration:none;
+	background:none
+}
+.dy_top a:hover{
+	color:white;
+	background:#CECDC5
+}
+.dy_top a:active{
+	color:white;
+	background:#666;
+	text-decoration:none
+}
+#eva-menu2 a:link{color: #888;
+height: 14px;
+text-decoration: none;
+display: block;
+padding: 5px 16px;
+}	
+#eva-menu2 a:visited{color: #888;
+height: 14px;
+text-decoration: none;
+display: block;
+padding: 5px 16px;
+}
+#eva-menu2 a:hover{color: white;
+height: 14px;
+text-decoration: none;
+display: block;
+padding: 5px 16px;
+}
+.menu {float: left;width:130px;height: 60px;z-index: 100;position: relative;cursor: pointer;margin-left: 4.5%;margin-top: 1%;}
+.menu span {padding: 8px 5px 12px;line-height: 20px;min-width: 18px;height: 25px;display: block;background: #cecdc5;text-align: center;color:white;float:left;width:90px}
+.eva-menu1 img {margin-top:-2px;}
+#eva-menu2 {overflow: hidden;margin: 0;list-style: none !important;position: absolute;top: 40px;left: 0;padding: 10px 0 0;background: #cecdc5;width: 100px;display:none}
+#eva-menu2 li{text-align:center;overflow:hidden;padding:0 0 10px}	
+.eva-wz h1 {text-align:center;color:#000}
+.eva-book{  float:left;width:50%;border: 1px solid #ddd;margin-right:20px}
+.eva-book-s{ width:50%;border: 1px solid #ddd;margin-right:auto;margin-left:auto}
+.eva-wz {color:#aaa;}
+.eva-wz img {top:0;background-repeat:no-repeat; background-position:top;width:100%;float:left;}
+.eva-wz p {color:#000000;line-height: 32px;font-size:12px;text-align:center}
+.eva-top{border-bottom: 1px solid #e9eadf;padding-bottom:8px}
+.eva-zl {text-align:center;color:#aaa;;}
+.cover {text-align:center}
+.cover-img {position:absolute;width:100%;height:61.8%}
+.cover-img img{background-repeat:no-repeat; background-position:top;width:100%;}
+.yuanc {color:#aaa}
+.pl p {color:#000000;line-height: 25px;font-size:12px;text-align:center}
+.fengdi {text-align:center}
+.delete a {font-size:12px;}
+.delete{font-size:12px;}
+.xiugai a {font-size:12px;color:#aaa}
+.i_pl img{width:50px;height:30px;overflow:hidden}
+#upload img {width: 100%;max-height: 600px;}
+.ui-menu { position: absolute; width: 100px; }
