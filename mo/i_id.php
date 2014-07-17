@@ -1,4 +1,4 @@
-<?php 
+<?php error_reporting(0);
 require_once('../ht/conn.php');
 require_once('../muban/cookie.php');
 $url =$_GET['url'];

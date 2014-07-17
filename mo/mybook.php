@@ -104,5 +104,6 @@ exit;
 <?php require_once('muban/id.php');	?> 
 <div id="eva">
 <?php require('muban/mybook_bottom.php');	?>
+</div>
 </body>
 </html>

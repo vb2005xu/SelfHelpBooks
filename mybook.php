@@ -123,5 +123,6 @@ exit;
 <?php require_once('muban/id.php');	?> 
 <div id="eva" style="position:absolute;left:4%;top:1%;width:92%;height:98%;z-index:8;">
 <?php require('muban/mybook_bottom.php');	?>
+</div>
 </body>
 </html>

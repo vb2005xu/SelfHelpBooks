@@ -87,5 +87,6 @@ bbbbbb=paiban_p();
 <button>搜索</button></form></div>
 <div id="eva" style="position:absolute;left:4%;top:10%;width:92%;height:85%;z-index:8;">
 <?php require('muban/p_index_bottom.php');	?>
+</div>
 </body>
 </html>	

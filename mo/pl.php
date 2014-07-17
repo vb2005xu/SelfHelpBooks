@@ -110,5 +110,6 @@ aaaaaaaa=paiban_pl();
 <?php require_once('muban/id.php');	?>
 <div id="eva" >
 <?php require('muban/pl_bottom.php');	?>
+</div>
 </body>
 </html>
