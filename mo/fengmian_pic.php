@@ -5,7 +5,8 @@ $result1 = mysql_query("select fm_pic from user where userid=$session_id");
 $row = @mysql_fetch_row($result1);
 if ($row[0]==null) {
 		$dyh="'";
-   		die('<div style="top:45%;left:45%;position:absolute">请登录<script language="javascript">setTimeout('.$dyh.'window.location.href="index.php"'.$dyh.',1000);</script></div>');}
+   		die('<div style="top:45%;left:45%;position:absolute">请登录<script language="javascript">setTimeout('.$dyh.'window.location.href="index.php"'.$dyh.',1000);</script></div>');
+}
 ?>
 <script type="text/javascript">
  $(function () {
@@ -24,7 +25,6 @@ if ($row[0]==null) {
 <br />
 <button>上传图片，自动压缩</button>
 </form>
-
 </div>
 </body>
 </html>

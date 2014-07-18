@@ -11,20 +11,21 @@
 <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
 <script language="javascript">
 $(document).ready(function() {	
-$("#email").blur( function () { $("#spinfo").text(""); } );  
-$("#tijiao").click(function(){
-<?php 
-require('muban/code_upload.php');	
-?>	
-});
-$("#email").keyup(function(){
-if(event.keyCode==13)
-{
-<?php 
-require('muban/code_upload.php');	
-?>
-}
-});			
+	$("#email").blur( function () { 
+			$("#spinfo").text(""); 
+	})  
+	$("#tijiao").click(function(){
+			<?php 
+			require('muban/code_upload.php');	
+			?>	
+	});
+	$("#email").keyup(function(){
+			if(event.keyCode==13){
+					<?php 
+					require('muban/code_upload.php');	
+					?>
+			}
+	});			
 });
 </script>
 </head>

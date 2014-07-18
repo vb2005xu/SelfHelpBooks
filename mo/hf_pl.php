@@ -1,25 +1,27 @@
 <?php 
 require_once('muban/head.php');	
 require_once('../muban/cookie.php'); 
-if (!$session_id){require('../muban/tz_login.php');	exit;}
+if (!$session_id){
+	require('../muban/tz_login.php');	
+	exit;
+}
 else { 
-require_once('../ht/conn.php'); 
-$wzid=mysql_real_escape_string($_GET['wzid']); 
-$hfid=mysql_real_escape_string($_GET['hfid']);
-$hf_name=mysql_real_escape_string($_GET['hf_name']);
+	require_once('../ht/conn.php'); 
+	$wzid=mysql_real_escape_string($_GET['wzid']); 
+	$hfid=mysql_real_escape_string($_GET['hfid']);
+	$hf_name=mysql_real_escape_string($_GET['hf_name']);
 }
 ?>
 <script src="../ui/maxlength.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(function () {
-$('textarea.limited').maxlength({
+		$('textarea.limited').maxlength({
             'feedback' : '.charsLeft', 
 			'useInput' : true
         });
 		$('input.limited').maxlength({
             'feedback' : '.charsLeft' 
         });
-        
         $('textarea.wordLimited').maxlength({
             'words': true,
             'feedback': '.wordsLeft',
@@ -27,7 +29,6 @@ $('textarea.limited').maxlength({
         });
 <?php require('muban/js_gm_zl.php');	?>
 });	
-
 </script>
 </head>
 <body>

@@ -5,37 +5,36 @@ require('muban/head.php');
 <link rel="stylesheet" type="text/css" href="ht/upload/uploadify.css"> 
 <script language="javascript">
 $(document).ready(function() {
-<?php $timestamp = time();?>	
-$('#file_upload').uploadify({
-				'formData'     : {
-					'timestamp' : '<?php echo $timestamp;?>',
-					'token'     : '<?php echo md5('unique_salt' . $timestamp);?>'
-				},
-				'swf'      : 'ht/upload/uploadify.swf',
-				'uploader' : 'ht/upload/uploadify.php',
-				'onUploadSuccess' : function(file, data, response) {
-				$("#upload").html(data);$("#tijiao").show()
-				},
-				 'fileTypeExts' : '*.gif; *.jpg; *.png',
-				 'buttonText' : '上传图片，自动压缩',
-				 'fileSizeLimit' : '60000KB',
-				 'uploadLimit' : 1
-				 
-			});
-$("#file_upload").css({"margin-left":"auto","margin-right":"auto"}); 
-setInterval(
-function eva_tijiao()
-{
-$("#tijiao").click(function(){
-var upload_img=($("#upload_pic").val());
-$.post("ht/pic_insert.php", { upload_pic : upload_img } );
-$(this).replaceWith('<span class="yuanc"><a style="font-size:16px" href="###">正在提交>>>>>>,等待成功跳转</a></span>');
-setTimeout('window.location.href="mybook.php"',2000);
-exit;
-});	
-}
-,500);
-<?php require('muban/js_gm_zl.php');	?>		 						
+			  <?php $timestamp = time();?>	
+			  $('#file_upload').uploadify({
+							  'formData'     : {
+								  'timestamp' : '<?php echo $timestamp;?>',
+								  'token'     : '<?php echo md5('unique_salt' . $timestamp);?>'
+							  },
+							  'swf'      : 'ht/upload/uploadify.swf',
+							  'uploader' : 'ht/upload/uploadify.php',
+							  'onUploadSuccess' : function(file, data, response) {
+							  $("#upload").html(data);$("#tijiao").show()
+							  },
+							   'fileTypeExts' : '*.gif; *.jpg; *.png',
+							   'buttonText' : '上传图片，自动压缩',
+							   'fileSizeLimit' : '60000KB',
+							   'uploadLimit' : 1
+							   
+			  });
+			  $("#file_upload").css({"margin-left":"auto","margin-right":"auto"}); 
+			  setInterval(
+					function eva_tijiao(){
+						  $("#tijiao").click(function(){
+							  var upload_img=($("#upload_pic").val());
+							  $.post("ht/pic_insert.php", { upload_pic : upload_img } );
+							  $(this).replaceWith('<span class="yuanc"><a style="font-size:16px" href="###">正在提交>>>>>>,等待成功跳转</a></span>');
+							  setTimeout('window.location.href="mybook.php"',2000);
+							  exit;
+						  });	
+					}
+			  ,500);
+			  <?php require('muban/js_gm_zl.php');	?>		 						
 });
 </script>
 </head>

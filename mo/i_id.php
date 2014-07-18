@@ -49,17 +49,18 @@ $(document).ready(function() {
 <ul>
 <li><img style= "margin-top:5px" src="../ui/ui_pic/logo_m.png"></li>
 <?php 
-if (!$session_id) {echo '<li><a class="log">登陆</a></li>';}
- else 
- {echo '<li><a href="xie.php">写</a></li><li><a href="mybook.php">我的书册</a></li>
- <li><a href="i.php">今日订阅('.$jrdy_row[0].')</a></li>
- <li><a href="i_pl.php">今日评论('.$jrpl_row[0].')</a></li>';}
- ?>
- <?php 
- if (!$session_id) {echo '';} 
- else 
- {echo '<li><a class="logout">退出</a></li>';}
- ?>
+if (!$session_id) {
+	echo '<li><a class="log">登陆</a></li>';
+}
+else {
+	echo '<li><a href="xie.php">写</a></li><li><a href="mybook.php">我的书册</a></li><li><a href="i.php">今日订阅('.$jrdy_row[0].')</a></li><li><a href="i_pl.php">今日评论('.$jrpl_row[0].')</a></li>';
+}
+if (!$session_id) {
+	echo '';
+}else {
+	echo '<li><a class="logout">退出</a></li>';
+}
+?>
  <li><a style="border-top:1px solid #E9EADF" href="index.php">今日目录</a></li>
  <li><a href="s.php">搜索</a></li>
  <li><a href="shuffle.php">摇随机</a></li>
