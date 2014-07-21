@@ -96,7 +96,8 @@
 	.b-menu {height:40px; padding:0 0 10px;}
 	
 	.b-selector             {height:40px; position:relative; float:right; border:none; color:white; cursor:pointer; font:normal 12px "Myriad Pro", Myriad, "DejaVu Sans Condensed","Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;}
-	.b-selector .b-current  {padding:8px 15px 12px; line-height:20px; min-width:18px; height:20px; display:block; background:#cecdc5; text-align:center;}
+	.b-selector .b-current  {padding:8px 15px 12px; line-height:20px; min-width:18px; height:20px; display:block;background:#7e8282 ;-moz-transition: all 0.5s ease-in;-webkit-transition: all 0.5s ease-in;-o-transition: all 0.5s ease-in;transition: all 0.5s ease-in;text-align:center;}
+	.b-selector:hover .b-current { background:#cecdc5;-moz-transition: all 0.5s ease-in;-webkit-transition: all 0.5s ease-in;-o-transition: all 0.5s ease-in;transition: all 0.5s ease-in;text-align:center;}
 	.b-selector-page        {width:85px;margin-right: 4.5%;margin-top:1%;}
 	.b-selector-chapter     {width:auto;}
 	
