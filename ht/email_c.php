@@ -5,9 +5,9 @@ $mail->IsHTML();
 $mail->CharSet='UTF-8'; //设置邮件的字符编码，这很重要，不然中文乱码 
 $mail->SMTPAuth = true; //开启认证 
 $mail->Port = 25; 
-$mail->Host = "smtp.exmail.qq.com"; 
-$mail->Username = "code@zizhushu.com"; 
-$mail->Password = "a355285351"; 
+$mail->Host = "xxx"; 
+$mail->Username = "xxxxxx"; 
+$mail->Password = "xxxxxx"; 
 //$mail->IsSendmail(); //如果没有sendmail组件就注释掉，否则出现“Could not execute: /var/qmail/bin/sendmail ”的错误提示 
 $mail->AddReplyTo("code@zizhushu.com","自助书，网页app");//回复地址 
 $mail->From = "code@zizhushu.com"; 
