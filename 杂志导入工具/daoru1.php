@@ -1,5 +1,5 @@
 <?php
-$conn=mysql_connect("localhost","evabioyetian","evabio@yetian");
+$conn=mysql_connect("localhost","xxxx","xxxx");
 mysql_select_db("zizhushu",$conn);
 mysql_query("set names utf8"); 
 $result = mysql_query("select wzid from wenzhang where `zl_wzid`=0;");
