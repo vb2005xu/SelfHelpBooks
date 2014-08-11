@@ -1,1 +1,1 @@
-<script language="javascript"> window.location.href="../login.php";</script>
+<script language="javascript"> window.location.href="../code.php";</script>

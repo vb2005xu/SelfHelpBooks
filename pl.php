@@ -66,7 +66,7 @@ function paiban_pl() {
 				  		echo '<form action="ht/pinglun_insert.php" method="get"  target="_self" ><textarea name="content" wrap="physical" class="limited" id="content" style="background:none;width:100%;height:50%;text-align:center;resize: vertical;overflow:auto;font-size:12px;border:1px solid #aaa" type="text"></textarea><span style="font-size:0.8em;color:#aaa" class="charsLeft">200</span><input type="hidden" name="maxlength" value="200" /><input name="wzid" type="hidden" value="'.$wzid.'" /><input id="hfid" name="hfid" type="hidden" value="'.$wz_row[8].'" /><br><button>评论</button></form>';
 				  }else {
 					    $dyh="'";
-						echo '<span class="yuanc"><a href="login.php?url='.$dyh.'+window.location.href+'.$dyh.'">请登录!</a></span>';
+						echo '<span class="yuanc"><a href="code.php?url='.$dyh.'+window.location.href+'.$dyh.'">请登录!</a></span>';
 				  }  
 				  ?>';
 		if (str.match('_img_')) {
